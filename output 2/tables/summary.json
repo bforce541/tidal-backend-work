@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "anomalies_prev": 843,
+    "anomalies_later": 2070,
+    "matched": 345,
+    "new": 1725,
+    "missing": 498,
+    "ambiguous": 75
+  },
+  "match_rate_pct": 16.67,
+  "growth": {
+    "avg_depth_rate": 0.5713315217391305,
+    "median_depth_rate": 0.25
+  },
+  "flags": {
+    "outlier_rates": 0,
+    "degenerate_segments": 0
+  }
+}

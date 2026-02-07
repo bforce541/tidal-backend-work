@@ -1,0 +1,68 @@
+{
+  "source": "data/ILIDataV2.xlsx",
+  "sheets_found": [
+    "Summary",
+    "2007",
+    "2015",
+    "2022"
+  ],
+  "run_years_requested": [
+    2007,
+    2015
+  ],
+  "runs": {
+    "2007": {
+      "sheet": "2007",
+      "year": 2007,
+      "column_map": {
+        "J. no.": "joint_number",
+        "to u/s w. [ft]": "dist_to_us_weld",
+        "log dist. [ft]": "distance_along_line",
+        "event": "feature_type",
+        "depth [%]": "depth_percent",
+        "length [in]": "length_in",
+        "width [in]": "width_in",
+        "o'clock": "clock"
+      },
+      "units": {
+        "joint_number": "unknown",
+        "dist_to_us_weld": "ft",
+        "distance_along_line": "ft",
+        "feature_type": "unknown",
+        "depth_percent": "percent",
+        "length_in": "in",
+        "width_in": "in",
+        "clock": "unknown"
+      },
+      "missing_recommended": []
+    },
+    "2015": {
+      "sheet": "2015",
+      "year": 2015,
+      "column_map": {
+        "J. no.": "joint_number",
+        "to u/s w. [ft]": "dist_to_us_weld",
+        "to d/s w. [ft]": "dist_to_ds_weld",
+        "Log Dist. [ft]": "distance_along_line",
+        "Event Description": "feature_type",
+        "Depth [%]": "depth_percent",
+        "Length [in]": "length_in",
+        "Width [in]": "width_in",
+        "O'clock": "clock"
+      },
+      "units": {
+        "joint_number": "unknown",
+        "dist_to_us_weld": "ft",
+        "dist_to_ds_weld": "ft",
+        "distance_along_line": "ft",
+        "feature_type": "unknown",
+        "depth_percent": "percent",
+        "length_in": "in",
+        "width_in": "in",
+        "clock": "unknown"
+      },
+      "missing_recommended": []
+    }
+  },
+  "errors": []
+}
